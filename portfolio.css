@@ -1,0 +1,211 @@
+body{
+   background: url('https://img.freepik.com/premium-photo/color-gradient-background-blur-glow-yellow-blue_279525-29150.jpg') no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   backdrop-filter: blur(8px);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #852d61;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: rgb(255, 154, 241);
+    font-size: 18px;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #953a54;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Explore text styling */
+#exp {
+    font-size: 28px;
+    text-align: center;
+    color: #fbb9d0;
+    background-color: rgba(149, 58, 84, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#info
+{
+    margin: 20px 20px 20px 20px;
+    padding: 106px 61px 68px 58px;
+    color:rgb(234, 162, 75); 
+    
+}
+h2
+{
+color: rgb(73, 15, 15);
+}
+#first
+{
+    margin-top: 150px;
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+}
+#name
+{
+ padding-top: 90px;
+ font-size: 1.5cm;
+ color: #fbb9d0;
+}
+#image
+{
+   margin-left: 250px;
+   border: 15px;
+   border-style: solid;
+   border-radius: 2px;
+   border: 10px solid;
+   border-color: #953a54; /* Add border */
+  padding: 20px; /* Add space between the image and the border */
+  background-color: transparent; 
+  border-radius: 20px;
+}
+#image:hover
+{
+    transform: scale(1.05);
+}
+#about
+{
+    
+    width: 80%;
+    height: 80%;
+    background-color: rgb(183 129 129 / 94%);
+    backdrop-filter: blur(40px); /* Applies the blur effect */
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: 20px;
+}
+#about:hover
+{
+    transform: scale(1.05);
+}
+#education
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(183 129 129 / 94%); /* White background with 50% opacity */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: 20px;   
+}
+#education:hover
+{
+    transform: scale(1.05);   
+}
+
+#skills
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(183 129 129 / 94%); /* White background with 50% opacity */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: 20px;
+}
+#skills:hover
+{
+    transform: scale(1.05);
+}
+
+#softskills
+{
+    margin-bottom: 30px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(183 129 129 / 94%); /* White background with 50% opacity */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: 20px;
+}
+#softskills:hover
+{
+    transform: scale(1.05);
+}
+#language
+{
+    margin-bottom: 30px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(183 129 129 / 94%); /* White background with 50% opacity */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: 20px;
+}
+#language:hover
+{
+    transform: scale(1.05);
+}
+#projects
+{
+    margin-bottom: 30px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(183 129 129 / 94%); /* White background with 50% opacity */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: 20px;
+}
+#projects:hover
+{
+    transform: scale(1.05);
+}
+#contact
+{
+    margin-bottom: 50px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(183 129 129 / 94%); /* White background with 50% opacity */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    font-size: 20px;
+}
+#contact:hover
+{
+    transform: scale(1.05);
+}
+footer{
+    color: aliceblue;
+}
